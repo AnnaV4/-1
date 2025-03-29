@@ -4,4 +4,4 @@ from .models import Operation
 class OperationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Operation
-        fields = 'all'
+        fields = '__all__'
